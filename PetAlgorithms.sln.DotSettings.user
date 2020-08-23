@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c3a977bb_002D9ce3_002D449b_002Db486_002Dee2317ffd8c3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SelectionSortTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::113ABCFC-876F-461A-8CFA-680A474751B6::.NETCoreApp,Version=v3.1::AlgorithmsTest.SelectionSortTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f1ba5e09_002D876c_002D4c9b_002Da26d_002D605dda642e3f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SelectionSortTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::113ABCFC-876F-461A-8CFA-680A474751B6::.NETCoreApp,Version=v3.1::AlgorithmsTest.SelectionSortTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
