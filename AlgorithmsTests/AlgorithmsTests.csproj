@@ -16,8 +16,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\BinarySearch\BinarySearch.csproj" />
-      <ProjectReference Include="..\SelectionSort\SelectionSort.csproj" />
+        <ProjectReference Include="..\BinarySearch\BinarySearch.csproj" />
+        <ProjectReference Include="..\SelectionSort\SelectionSort.csproj" />
     </ItemGroup>
 
 </Project>

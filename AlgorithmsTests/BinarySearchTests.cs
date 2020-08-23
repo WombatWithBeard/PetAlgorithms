@@ -18,7 +18,7 @@ namespace AlgorithmsTest
             Assert.NotNull(result);
             Assert.Equal(5, result);
         }
-        
+
         [Fact]
         public void BinarySearch_InvalidItem()
         {
@@ -30,7 +30,7 @@ namespace AlgorithmsTest
 
             Assert.Null(result);
         }
-        
+
         [Fact]
         public void BinarySearchRecursive_ValidItem()
         {
@@ -43,7 +43,7 @@ namespace AlgorithmsTest
             Assert.NotNull(result);
             Assert.Equal(5, result);
         }
-        
+
         [Fact]
         public void BinarySearchRecursive_InvalidItem()
         {
@@ -55,17 +55,17 @@ namespace AlgorithmsTest
 
             Assert.Null(result);
         }
-        
+
         [Fact]
         public void BinarySearch_NullArray()
         {
-            Assert.Throws<Exception>(()=> new BinarySearchAlgorithm(null));
+            Assert.Throws<Exception>(() => new BinarySearchAlgorithm(null));
         }
-        
+
         [Fact]
         public void BinarySearch_EmptyArray()
         {
-            Assert.Throws<Exception>(()=> new BinarySearchAlgorithm(new int[]{}));
+            Assert.Throws<Exception>(() => new BinarySearchAlgorithm(new int[] { }));
         }
     }
 }

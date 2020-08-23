@@ -26,7 +26,7 @@ namespace SelectionSort
                 resultArr.Add(_unsortedData[smallest]);
                 _unsortedData.RemoveAt(smallest);
             }
-            
+
             return resultArr.ToArray();
         }
 
