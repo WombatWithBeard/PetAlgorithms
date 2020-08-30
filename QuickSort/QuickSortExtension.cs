@@ -4,8 +4,10 @@ using System.Linq;
 
 namespace QuickSort
 {
+    //O(n Log n)
     public static class QuickSortExtension
     {
+        
         public static IEnumerable<T> QuickSort<T>(this IEnumerable<T> source) where T : IComparable<T>
         {
             var quickSort = source.ToList();

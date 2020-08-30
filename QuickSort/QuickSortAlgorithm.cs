@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace QuickSort
 {
+    //O(n Log n)
     public class QuickSortAlgorithm
     {
         public IEnumerable<T> QuickSort<T>(IEnumerable<T> source) where T : IComparable<T>

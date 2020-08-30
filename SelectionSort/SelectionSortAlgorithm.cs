@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 
 namespace SelectionSort
 {
+    //O(n^2)
     public class SelectionSortAlgorithm
     {
         private readonly List<int> _unsortedData;

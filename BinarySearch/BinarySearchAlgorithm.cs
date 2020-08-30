@@ -2,6 +2,7 @@ using System;
 
 namespace BinarySearch
 {
+    //O(log n)
     public class BinarySearchAlgorithm
     {
         private readonly int[] _sortedData;
