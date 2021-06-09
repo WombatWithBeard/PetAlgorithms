@@ -36,12 +36,12 @@ namespace AlgorithmsTest
         {
             var array = new[] {1, 6, 12, 25, 90, 155, 255, 789, 1230, 1987, 90890};
             var binarySearch = new BinarySearchAlgorithm(array);
-            var validItem = 155;
+            var validItem = 1987;
 
             var result = binarySearch.RecursiveSearch(validItem, 0, array.Length);
 
             Assert.NotNull(result);
-            Assert.Equal(5, result);
+            Assert.Equal(9, result);
         }
 
         [Fact]

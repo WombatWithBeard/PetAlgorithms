@@ -13,7 +13,6 @@ namespace BreadthFirstSearch
         public BreadthFirstSearchAlgorithm()
         {
             _checkedPersons = new Hashtable();
-            ;
             _searchQueue = new Queue<Person>();
         }
 
