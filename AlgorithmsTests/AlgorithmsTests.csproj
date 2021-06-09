@@ -20,6 +20,7 @@
     <ItemGroup>
         <ProjectReference Include="..\BinarySearch\BinarySearch.csproj" />
         <ProjectReference Include="..\BreadthFirstSearch\BreadthFirstSearch.csproj" />
+        <ProjectReference Include="..\DijkstrasAlgorithm\DijkstrasAlgorithm.csproj" />
         <ProjectReference Include="..\QuickSort\QuickSort.csproj" />
         <ProjectReference Include="..\SelectionSort\SelectionSort.csproj" />
     </ItemGroup>

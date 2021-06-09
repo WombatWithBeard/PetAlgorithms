@@ -4,8 +4,11 @@ namespace DijkstrasAlgorithm
 {
     public class Graph
     {
-        public string RouteNumber { get; set; }
+        public int Id { get; set; }
+        public bool IsStart { get; set; }
+        public bool IsFinish { get; set; }
+        public int Parent { get; set; }
+        public string VertexName { get; set; }
         public int Value { get; set; }
-        public List<Graph> NeighborsGraphs { get; set; }
     }
 }
